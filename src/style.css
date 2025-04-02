@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsContainer {
+    display: flex;
+    
+}
