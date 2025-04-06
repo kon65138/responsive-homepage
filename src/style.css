@@ -7,17 +7,114 @@ html{
 }
 
 body{
+    margin: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .aboutMeContainer {
+    margin: 2rem 7rem 2rem 7rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.aboutMe {
+background: rgba(128, 128, 128, 0.322);
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.projectsContainer {
+.aboutMe h1 {
+    font-size: 3rem;
+}
+
+.aboutMeText {
+    font-size: 1.5rem;
+}
+
+.aboutMeLinks {
+    margin-top: 2rem;
+    justify-self: end;
     display: flex;
-    
+    justify-content: end;
+    gap: 0.5rem
+}
+
+.projectsContainer {
+    background-color: grey;
+    display: grid;
+    grid-template:repeat(2, 1fr)/repeat(3, 1fr);
+    gap:1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: white;
+    height: 100%;
+    padding: 1rem;
+}
+
+.top {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.projName {
+    flex: 1;
+}
+
+.proSrc {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(0, 204, 255, 0.651);
+    padding: 5rem;
+}
+
+.contactMe {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.contactMe h4 {
+    font-size: 4rem;
+}
+
+.contactText {
+    margin-right: 40%;
+}
+
+.phone , .mail {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.secondPortrait {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    flex: 1.2;
+}
+
+.secondPortrait img {
+    width: 100%
 }

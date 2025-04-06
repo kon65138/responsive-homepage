@@ -19,12 +19,16 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'blank',
-        template: './src/index.html',
+      title: 'blank',
+      template: './src/index.html',
     }),
   ],
   output: {
