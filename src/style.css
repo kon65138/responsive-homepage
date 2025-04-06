@@ -14,7 +14,7 @@ body{
 }
 
 .aboutMeContainer {
-    margin: 2vh 3vw 2vh 3vw;
+    margin: 2vw 3vw 2vw 3vw;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -27,14 +27,14 @@ body{
     overflow: hidden;
     margin: 0;
     background: rgba(128, 128, 128, 0.322);
-    padding: 1rem;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
 }
 
 .aboutMe h1 {
     font-size: 4vw;
-    margin: 2vh 0 2vh 0
+    margin: 2vw 0 2vw 0
 }
 
 .aboutMeText {
@@ -42,7 +42,7 @@ body{
 }
 
 .aboutMeLinks {
-    margin-top: 2vh;
+    margin-top: 2vw;
     justify-self: end;
     display: flex;
     justify-content: end;
@@ -67,19 +67,22 @@ body{
     align-items: center;
     background-color: white;
     height: 100%;
-    padding: 1rem;
+    padding: 1vw;
     font-size: 1vw;
 }
 
 .top {
-    margin: 1rem 0 1rem 0;
     display: flex;
-    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.5vw;
 }
 
 .projName {
     flex: 1;
     font-size: 1.5vw;
+    margin: 1vw 0 1vw 0;
 }
 
 .proSrc {
@@ -90,7 +93,7 @@ body{
 footer {
     display: flex;
     background-color: rgba(0, 204, 255, 0.651);
-    padding: 5rem;
+    padding: 5vw;
 }
 
 .contactMe {
@@ -103,7 +106,7 @@ footer {
 
 .contactMe h4 {
     font-size: 5.5vw;
-    margin: 2vh 0 2vw 0;
+    margin: 2vw 0 2vw 0;
 }
 
 .contactText {
@@ -112,16 +115,49 @@ footer {
 
 .phone , .mail {
     display: flex;
-    gap: 1rem;
-    margin: 1rem 0 1rem 0;
+    gap: 1vw;
+    margin: 1vw 0 1vw 0;
+}
+
+.phone img, .mail img {
+    width: 2vw;
+    height: 2vw;
 }
 
 .secondPortrait {
     margin:auto 0 auto 0;
-    flex: 1;
+    flex: 0.5;
+    margin-right: 10%;
 }
 
 .portraitTwo{
     overflow:hidden;
     max-width: 100%;
+}
+
+.socialMediaIcons {
+    display: flex;
+    gap: 2vw;
+}
+
+.btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background:none;
+    border: none;
+}
+
+.btn img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.btn:hover {
+    cursor:pointer;
 }
