@@ -181,3 +181,128 @@ footer {
 .btn:hover {
     cursor:pointer;
 }
+
+@media (max-width: 1000px) {
+    .projectsContainer {
+        grid-template:repeat(3, 1fr)/ repeat(2, 1fr);
+    }
+    .aboutMe h1 {
+        font-size: 4vw;
+        margin: 2vw 0 2vw 0
+    }
+    
+    .aboutMeText {
+        font-size: 2.2vw;
+    }
+    .projectsTitle {
+        font-size: 4vw;
+        margin: 3vw 0 2vw 2vw;
+    }
+    .project {
+        font-size: 2vw;
+    }
+    .projName {
+        font-size: 3vw;
+    }
+    footer {
+        padding: 4vw 5vw 4vw 5vw;
+    }
+    
+    .contactMe {
+        font-size: 3vw;
+    }
+    
+    .contactMe h4 {
+        font-size: 5vw;
+    }
+    
+    .contactText {
+        margin-right: 10%;
+    }
+
+    .phone img, .mail img {
+        width: 3vw;
+        height: 3vw;
+    }
+    
+    .secondPortrait {
+        flex: 0.8;
+    }
+    
+    .portraitTwo{
+        max-width: 100%;
+    }
+    
+    .btn img {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .projectsContainer {
+        grid-template:repeat(6, 1fr)/ 1fr;
+    }
+    .aboutMeContainer {
+        flex-direction: column;
+    }
+    .personName {
+        font-size: 10vw;
+        top: 57vw;
+        left: 20vw;
+    }
+    .portraitOne {
+        max-width: 90%;
+    }
+    .aboutMe h1 {
+        font-size: 5vw;
+        margin: 2vw 0 2vw 0
+    }
+    
+    .aboutMeText {
+        font-size: 3vw;
+    }
+    .projectsTitle {
+        font-size: 6vw;
+        margin: 3vw 0 2vw 2vw;
+    }
+    .project {
+        font-size: 3vw;
+    }
+    .projName {
+        font-size: 5vw;
+    }
+    footer {
+        padding: 4vw 5vw 4vw 5vw;
+    }
+    
+    .contactMe {
+        font-size: 4vw;
+    }
+    
+    .contactMe h4 {
+        font-size: 7vw;
+    }
+    
+    .contactText {
+        margin-right: 10%;
+    }
+
+    .phone img, .mail img {
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .secondPortrait {
+        flex: 0.8;
+    }
+    
+    .portraitTwo{
+        max-width: 100%;
+    }
+    
+    .btn img {
+        width: 4vw;
+        height: 4vw;
+    }
+}
