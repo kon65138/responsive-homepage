@@ -1,0 +1,1 @@
+last real task is to make images change resoloution using html srcset and other stuff to save bandwith!!!
